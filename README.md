@@ -1,0 +1,1 @@
+- Esses trabalhos e exercícios foram feito em dupla com meu amigo Diogo Almeida.
