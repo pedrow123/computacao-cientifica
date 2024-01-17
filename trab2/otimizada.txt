@@ -1,0 +1,438 @@
+gcc -o ajustePol ajustePol.o matriz.o intervaloOp.o -L/home/soft/likwid/lib -llikwid -O3 -mavx -march=native -lm -Wall 
+----------------- EXECUÇÃO DO ARQUIVO arquivos/100000000.txt ------------------
+tempo geraSL = 139961.750000
+tempo solSL = 0.208252
+tempo calcRes = 23981.538086
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 385.8243
+FLOPS_DP em MFLOP/s solSL = 196.1197
+FLOPS_DP em MFLOP/s calcRes = 383.9043
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.2974
+L2 miss ratio solSL = 0.3253
+L2 miss ratio calcRes = 0.2606
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 21.9050
+L3 bandwidth solSL = 12513.9177
+L3 bandwidth calcRes = 357.2711
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/10000000.txt ------------------
+tempo geraSL = 14061.474122
+tempo solSL = 0.200196
+tempo calcRes = 2353.655030
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 384.0345
+FLOPS_DP em MFLOP/s solSL = 245.3371
+FLOPS_DP em MFLOP/s calcRes = 390.9192
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.2984
+L2 miss ratio solSL = 0.3393
+L2 miss ratio calcRes = 0.2636
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 21.9400
+L3 bandwidth solSL = 12638.1882
+L3 bandwidth calcRes = 461.0032
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/1000000.txt ------------------
+tempo geraSL = 1400.909424
+tempo solSL = 0.204102
+tempo calcRes = 237.418702
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 385.5334
+FLOPS_DP em MFLOP/s solSL = 246.5053
+FLOPS_DP em MFLOP/s calcRes = 387.9302
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3000
+L2 miss ratio solSL = 0.3132
+L2 miss ratio calcRes = 0.2637
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 20.9020
+L3 bandwidth solSL = 13618.4498
+L3 bandwidth calcRes = 436.6238
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/100000.txt ------------------
+tempo geraSL = 140.295411
+tempo solSL = 0.196045
+tempo calcRes = 24.304688
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 385.5279
+FLOPS_DP em MFLOP/s solSL = 259.7047
+FLOPS_DP em MFLOP/s calcRes = 381.6931
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3227
+L2 miss ratio solSL = 0.3264
+L2 miss ratio calcRes = 0.2724
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 14.0393
+L3 bandwidth solSL = 13537.0401
+L3 bandwidth calcRes = 257.9507
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/10000.txt ------------------
+tempo geraSL = 14.372071
+tempo solSL = 0.196045
+tempo calcRes = 2.727051
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 381.5622
+FLOPS_DP em MFLOP/s solSL = 258.3298
+FLOPS_DP em MFLOP/s calcRes = 363.8136
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3464
+L2 miss ratio solSL = 0.3059
+L2 miss ratio calcRes = 0.3408
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 24.0921
+L3 bandwidth solSL = 12468.4971
+L3 bandwidth calcRes = 113.7668
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/1024.txt ------------------
+tempo geraSL = 1.680176
+tempo solSL = 0.200196
+tempo calcRes = 0.458008
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 376.9473
+FLOPS_DP em MFLOP/s solSL = 260.9359
+FLOPS_DP em MFLOP/s calcRes = 366.3766
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3691
+L2 miss ratio solSL = 0.3134
+L2 miss ratio calcRes = 0.2902
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 66.5105
+L3 bandwidth solSL = 12798.0296
+L3 bandwidth calcRes = 304.8368
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/128.txt ------------------
+tempo geraSL = 0.386475
+tempo solSL = 0.194092
+tempo calcRes = 0.225098
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 380.9743
+FLOPS_DP em MFLOP/s solSL = 260.1790
+FLOPS_DP em MFLOP/s calcRes = 374.8518
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3641
+L2 miss ratio solSL = 0.3072
+L2 miss ratio calcRes = 0.2920
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 431.8262
+L3 bandwidth solSL = 11197.0737
+L3 bandwidth calcRes = 1286.9226
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/2000.txt ------------------
+tempo geraSL = 3.113038
+tempo solSL = 0.199219
+tempo calcRes = 0.706788
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 372.7281
+FLOPS_DP em MFLOP/s solSL = 253.9435
+FLOPS_DP em MFLOP/s calcRes = 360.6668
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3263
+L2 miss ratio solSL = 0.2883
+L2 miss ratio calcRes = 0.3264
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 45.4649
+L3 bandwidth solSL = 13578.3351
+L3 bandwidth calcRes = 217.1668
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/200.txt ------------------
+tempo geraSL = 0.487305
+tempo solSL = 0.193848
+tempo calcRes = 0.243165
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 383.8892
+FLOPS_DP em MFLOP/s solSL = 264.0055
+FLOPS_DP em MFLOP/s calcRes = 371.8541
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3465
+L2 miss ratio solSL = 0.3041
+L2 miss ratio calcRes = 0.2950
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 228.2034
+L3 bandwidth solSL = 12204.8621
+L3 bandwidth calcRes = 991.3509
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/256.txt ------------------
+tempo geraSL = 0.562256
+tempo solSL = 0.193848
+tempo calcRes = 0.256104
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 385.4839
+FLOPS_DP em MFLOP/s solSL = 261.8980
+FLOPS_DP em MFLOP/s calcRes = 375.6049
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3537
+L2 miss ratio solSL = 0.3008
+L2 miss ratio calcRes = 0.2987
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 234.9615
+L3 bandwidth solSL = 12364.1581
+L3 bandwidth calcRes = 807.0083
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/3000.txt ------------------
+tempo geraSL = 4.580079
+tempo solSL = 0.199952
+tempo calcRes = 1.013184
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 371.0459
+FLOPS_DP em MFLOP/s solSL = 229.8765
+FLOPS_DP em MFLOP/s calcRes = 337.7466
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3377
+L2 miss ratio solSL = 0.3032
+L2 miss ratio calcRes = 0.3290
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 37.9393
+L3 bandwidth solSL = 16182.7363
+L3 bandwidth calcRes = 178.0329
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/4096.txt ------------------
+tempo geraSL = 6.083252
+tempo solSL = 0.179932
+tempo calcRes = 1.184815
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 376.5158
+FLOPS_DP em MFLOP/s solSL = 253.4675
+FLOPS_DP em MFLOP/s calcRes = 374.8497
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3436
+L2 miss ratio solSL = 0.3634
+L2 miss ratio calcRes = 0.3416
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 32.4000
+L3 bandwidth solSL = 13510.4600
+L3 bandwidth calcRes = 142.3597
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/50000.txt ------------------
+tempo geraSL = 71.123292
+tempo solSL = 0.201905
+tempo calcRes = 12.499024
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 381.1108
+FLOPS_DP em MFLOP/s solSL = 264.5753
+FLOPS_DP em MFLOP/s calcRes = 374.0296
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3565
+L2 miss ratio solSL = 0.3072
+L2 miss ratio calcRes = 0.3191
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 14.8224
+L3 bandwidth solSL = 12627.5930
+L3 bandwidth calcRes = 103.6668
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/512.txt ------------------
+tempo geraSL = 0.935303
+tempo solSL = 0.193848
+tempo calcRes = 0.316895
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 386.4631
+FLOPS_DP em MFLOP/s solSL = 255.2941
+FLOPS_DP em MFLOP/s calcRes = 372.4615
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3734
+L2 miss ratio solSL = 0.3219
+L2 miss ratio calcRes = 0.3179
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 127.5543
+L3 bandwidth solSL = 11881.2941
+L3 bandwidth calcRes = 392.1674
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/6000.txt ------------------
+tempo geraSL = 8.765381
+tempo solSL = 0.178711
+tempo calcRes = 1.652100
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 378.6319
+FLOPS_DP em MFLOP/s solSL = 265.1501
+FLOPS_DP em MFLOP/s calcRes = 376.4687
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3452
+L2 miss ratio solSL = 0.3146
+L2 miss ratio calcRes = 0.3438
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 29.4995
+L3 bandwidth solSL = 12923.7925
+L3 bandwidth calcRes = 130.4495
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/600.txt ------------------
+tempo geraSL = 1.044190
+tempo solSL = 0.194092
+tempo calcRes = 0.339112
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 386.7873
+FLOPS_DP em MFLOP/s solSL = 238.3859
+FLOPS_DP em MFLOP/s calcRes = 377.6814
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3564
+L2 miss ratio solSL = 0.2771
+L2 miss ratio calcRes = 0.2810
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 98.0889
+L3 bandwidth solSL = 12043.2932
+L3 bandwidth calcRes = 369.8348
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/64.txt ------------------
+tempo geraSL = 0.304444
+tempo solSL = 0.200928
+tempo calcRes = 0.217042
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 366.2677
+FLOPS_DP em MFLOP/s solSL = 271.6236
+FLOPS_DP em MFLOP/s calcRes = 331.7787
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3604
+L2 miss ratio solSL = 0.2807
+L2 miss ratio calcRes = 0.2831
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 801.9410
+L3 bandwidth solSL = 17803.2874
+L3 bandwidth calcRes = 2234.9276
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/7000.txt ------------------
+tempo geraSL = 10.260254
+tempo solSL = 0.197022
+tempo calcRes = 2.001221
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 376.4245
+FLOPS_DP em MFLOP/s solSL = 257.7876
+FLOPS_DP em MFLOP/s calcRes = 375.1630
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3468
+L2 miss ratio solSL = 0.2887
+L2 miss ratio calcRes = 0.3376
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 23.0297
+L3 bandwidth solSL = 11967.2413
+L3 bandwidth calcRes = 127.1353
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+
+----------------- EXECUÇÃO DO ARQUIVO arquivos/800.txt ------------------
+tempo geraSL = 1.323243
+tempo solSL = 0.195069
+tempo calcRes = 0.411133
+--------------------------------------------------------------------------------
+FLOPS_DP em MFLOP/s geraSL = 387.0190
+FLOPS_DP em MFLOP/s solSL = 262.3083
+FLOPS_DP em MFLOP/s calcRes = 377.5639
+--------------------------------------------------------------------------------
+FLOPS_AVX em MFLOP/s geraSL = 0
+FLOPS_AVX em MFLOP/s solSL = 0
+FLOPS_AVX em MFLOP/s calcRes = 0
+--------------------------------------------------------------------------------
+L2 miss ratio geraSL = 0.3556
+L2 miss ratio solSL = 0.2994
+L2 miss ratio calcRes = 0.3394
+--------------------------------------------------------------------------------
+L3 bandwidth geraSL = 84.5992
+L3 bandwidth solSL = 11777.8438
+L3 bandwidth calcRes = 306.5231
+--------------------------------------------------------------------------------
+Execução bem sucedida!
+

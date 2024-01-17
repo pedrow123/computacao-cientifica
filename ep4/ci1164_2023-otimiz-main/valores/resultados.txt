@@ -1,0 +1,209 @@
+gcc -o matmult matmult.o matriz.o -L/home/soft/likwid/lib -llikwid -O3 -mavx -march=native
+----------------- EXECUÇÃO PARA N = 64 ------------------
+Tempo MatVet =  0.001953
+Tempo MatMat =  0.099121
+L3 bandwidth MatVet = 32046.7649
+L3 bandwidth MatMat = 1371.3071
+L2 miss ratio MatVet = 0.2992
+L2 miss ratio MatMat = 0.1084
+Energy [J] MatVet = 0
+Energy [J] MatMat = 0.0103
+FLOPS_DP MatVet = 2381.3772
+FLOPS_DP MatMat = 5287.2930
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 100 ------------------
+Tempo MatVet =  0.004150
+Tempo MatMat =  0.351807
+L3 bandwidth MatVet = 29450.2144
+L3 bandwidth MatMat = 1167.0168
+L2 miss ratio MatVet = 0.3009
+L2 miss ratio MatMat = 0.0679
+Energy [J] MatVet = 0
+Energy [J] MatMat = 0
+FLOPS_DP MatVet = 3531.3416
+FLOPS_DP MatMat = 5629.1935
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 128 ------------------
+Tempo MatVet =  0.006836
+Tempo MatMat =  1.204102
+L3 bandwidth MatVet = 27020.9172
+L3 bandwidth MatMat = 1320.0157
+L2 miss ratio MatVet = 0.3015
+L2 miss ratio MatMat = 0.1597
+Energy [J] MatVet = 0
+Energy [J] MatMat = 0.0107
+FLOPS_DP MatVet = 3899.3517
+FLOPS_DP MatMat = 3487.2468
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 200 ------------------
+Tempo MatVet =  0.015869
+Tempo MatMat =  3.409912
+L3 bandwidth MatVet = 24904.1958
+L3 bandwidth MatMat = 5069.9379
+L2 miss ratio MatVet = 0.3153
+L2 miss ratio MatMat = 0.2093
+Energy [J] MatVet = 0
+Energy [J] MatMat = 0.0333
+FLOPS_DP MatVet = 4212.2302
+FLOPS_DP MatMat = 4672.2494
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 256 ------------------
+Tempo MatVet =  0.029297
+Tempo MatMat =  14.078125
+L3 bandwidth MatVet = 21705.7369
+L3 bandwidth MatMat = 18019.4142
+L2 miss ratio MatVet = 0.2967
+L2 miss ratio MatMat = 0.3973
+Energy [J] MatVet = 0
+Energy [J] MatMat = 0.1443
+FLOPS_DP MatVet = 4273.2014
+FLOPS_DP MatMat = 2406.6981
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 512 ------------------
+Tempo MatVet =  0.117188
+Tempo MatMat =  136.511719
+L3 bandwidth MatVet = 25628.1315
+L3 bandwidth MatMat = 17582.8487
+L2 miss ratio MatVet = 0.3474
+L2 miss ratio MatMat = 0.3751
+Energy [J] MatVet = 0
+Energy [J] MatMat = 1.3598
+FLOPS_DP MatVet = 4395.8029
+FLOPS_DP MatMat = 1956.7224
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 600 ------------------
+Tempo MatVet =  0.159912
+Tempo MatMat =  107.555908
+L3 bandwidth MatVet = 23037.6569
+L3 bandwidth MatMat = 9304.8550
+L2 miss ratio MatVet = 0.2838
+L2 miss ratio MatMat = 0.1809
+Energy [J] MatVet = 0.0109
+Energy [J] MatMat = 1.2110
+FLOPS_DP MatVet = 4397.3565
+FLOPS_DP MatMat = 4057.0580
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 900 ------------------
+Tempo MatVet =  0.488037
+Tempo MatMat =  370.134277
+L3 bandwidth MatVet = 25922.1853
+L3 bandwidth MatMat = 11613.8840
+L2 miss ratio MatVet = 0.2758
+L2 miss ratio MatMat = 0.2018
+Energy [J] MatVet = 0.0101
+Energy [J] MatMat = 4.1389
+FLOPS_DP MatVet = 3997.0595
+FLOPS_DP MatMat = 3963.2597
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 1024 ------------------
+Tempo MatVet =  0.512939
+Tempo MatMat =  1859.493896
+L3 bandwidth MatVet = 32295.7157
+L3 bandwidth MatMat = 15443.6541
+L2 miss ratio MatVet = 0.3152
+L2 miss ratio MatMat = 0.3289
+Energy [J] MatVet = 0
+Energy [J] MatMat = 12.6002
+FLOPS_DP MatVet = 3964.2520
+FLOPS_DP MatMat = 1161.4758
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 2000 ------------------
+Tempo MatVet =  2.058105
+Tempo MatMat =  4604.340088
+L3 bandwidth MatVet = 31034.6599
+L3 bandwidth MatMat = 35550.1602
+L2 miss ratio MatVet = 0.2906
+L2 miss ratio MatMat = 0.4094
+Energy [J] MatVet = 0.0355
+Energy [J] MatMat = 55.5038
+FLOPS_DP MatVet = 3794.6299
+FLOPS_DP MatMat = 3473.6907
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 2048 ------------------
+Tempo MatVet =  2.197021
+Tempo MatMat =  16054.939941
+L3 bandwidth MatVet = 30470.4121
+L3 bandwidth MatMat = 18868.2805
+L2 miss ratio MatVet = 0.3172
+L2 miss ratio MatMat = 0.2905
+Energy [J] MatVet = 0.0239
+Energy [J] MatMat = 160.2324
+FLOPS_DP MatVet = 3866.8698
+FLOPS_DP MatMat = 1078.8116
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 3000 ------------------
+Tempo MatVet =  4.706055
+Tempo MatMat =  15777.522217
+L3 bandwidth MatVet = 30665.7704
+L3 bandwidth MatMat = 37362.7753
+L2 miss ratio MatVet = 0.2833
+L2 miss ratio MatMat = 0.4084
+Energy [J] MatVet = 0.0585
+Energy [J] MatMat = 193.5623
+FLOPS_DP MatVet = 3829.5104
+FLOPS_DP MatMat = 3446.2578
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
+----------------- EXECUÇÃO PARA N = 4000 ------------------
+Tempo MatVet =  8.319824
+Tempo MatMat =  40774.221924
+L3 bandwidth MatVet = 31035.1828
+L3 bandwidth MatMat = 33508.5625
+L2 miss ratio MatVet = 0.2835
+L2 miss ratio MatMat = 0.4079
+Energy [J] MatVet = 0.1079
+Energy [J] MatMat = 498.7697
+FLOPS_DP MatVet = 3849.5250
+FLOPS_DP MatMat = 3134.0778
+FLOPS_AVX MatVet = 0
+FLOPS_AVX MatMat = 0
+
+Execução bem-sucedida
+
